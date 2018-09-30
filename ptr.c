@@ -17,10 +17,10 @@ int	main(void)
 	printf("sizeof(char) = %zu\n\n", sizeof(char));
 
 	tmp = douze;
-	printf("ptr hexa value case 0 = %d\n", (int)tmp);
+	printf("ptr value case 0 = %d\n", (int)tmp);
 	douze++;
 	tmp = douze;
-	printf("ptr hexa value case 1 = %d\n", (int)tmp);
+	printf("ptr value case 1 = %d\n", (int)tmp);
 
 	printf("\n\n\n\n");
 
@@ -29,10 +29,10 @@ int	main(void)
 	printf("sizeof(int) = %zu\n\n", sizeof(int));	
 
 	tmp = undeux;
-	printf("ptr hexa value case 0 = %d\n", (int)tmp);
+	printf("ptr value case 0 = %d\n", (int)tmp);
 	undeux++;
 	tmp = undeux;
-	printf("ptr hexa value case 1 = %d\n", (int)tmp);
+	printf("ptr value case 1 = %d\n", (int)tmp);
 
 	printf("\n\n\n\n");
 
