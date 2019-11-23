@@ -93,7 +93,7 @@ int						main()
 
 	// Format digits len for formating
 	len = get_digit_len(10, xsize * ysize * zsize);
-	table = malloc(sizeof(long) * zsize * ysize * zsize);
+	table = malloc(sizeof(long) * xsize * ysize * zsize);
 	// Casting to vla pointer to use the c array natural syntax
 	// A bit weird of a syntax but well...
 	long	(*t3d)[xsize][ysize][zsize] = ((long(*)[xsize][ysize][zsize])table);
